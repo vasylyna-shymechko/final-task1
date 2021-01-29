@@ -1,0 +1,161 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+.top-block{
+    width: 800px;
+    min-height: 300px;
+    background-color: rgb(169, 178, 187);
+    padding: 20px;
+}
+.bottom-block{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(169, 178, 187);
+    padding: 20px;
+    }
+.button-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+button{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.inner-bottom-block{
+    display: none;
+}
+.style-block{
+    display: none;
+    align-items: center;
+   
+}
+select{
+    width: 300px;
+    height: 30px;
+}
+.color{
+    width: 140px;
+    background-color: grey;
+    color: ghostwhite;
+
+}
+.container2{
+    width: 800px;
+    min-height: 350px;
+    margin: 0 auto;
+    height: 300px;
+    background-color: rgb(169, 178, 187);
+    padding: 20px;
+    display: none;
+}
+.color-block{
+    width: 152px;
+    height: 152px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    display: none;
+}
+.color-block-2{
+    width: 152px;
+    height: 152px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    display: none;
+}
+.color-style{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    color: transparent;
+}
+.color-style-2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    color: transparent;
+}
+.red{
+    background-color: red;
+   
+}
+.blue{
+    background-color: blue;
+   
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.white{
+    background-color: white;
+}
+.violet{
+    background-color: violet;
+}
+.cadetblue{
+    background-color: cadetblue;
+}
+.createElement{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="text"]{
+    width: 300px;
+    margin-left: 35px;
+    height: 30px;
+}
+.list-block{
+    display: none;
+}
+.table-block{
+    display: none;
+}
+
+.small-select{
+    width: 100px;
+    height: 30px;
+}
+.small-input{
+    width: 100px;
+    height: 30px;  
+
+}
+.edit{
+    background-color: yellow;
+}
+.style{
+    color: white;
+    background-color: lightskyblue;
+}
+.add{
+    background-color: red;
+    color: white;
+}
+.save{
+    background-color: green;
+    color: white;
+}
